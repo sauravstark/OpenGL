@@ -10,9 +10,6 @@ void processInput(GLFWwindow* window);
 
 int main()
 {
-	std::ofstream outfile;
-	outfile.open("Shaders/test.shader");
-	outfile << "sth" << std::endl;
 	// glfw: initialize and configure
 	// ------------------------------
 	glfwInit();
