@@ -32,8 +32,16 @@
     <ClInclude Include="Includes\KHR\khrplatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Includes\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="Libs\glfw3.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\test.shader" />
+    <None Include="Shaders\vertex.vs" />
+    <None Include="Shaders\fragment.fs" />
   </ItemGroup>
 </Project>

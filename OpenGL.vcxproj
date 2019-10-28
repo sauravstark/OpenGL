@@ -137,9 +137,15 @@
     <ClInclude Include="Includes\glad\glad.h" />
     <ClInclude Include="Includes\GLFW\glfw3.h" />
     <ClInclude Include="Includes\KHR\khrplatform.h" />
+    <ClInclude Include="Includes\Shader.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Libs\glfw3.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fragment.fs" />
+    <None Include="Shaders\vertex.vs" />
+    <None Include="src\test.shader" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
